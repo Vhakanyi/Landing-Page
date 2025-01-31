@@ -222,3 +222,45 @@ blockquote {
 .cta .btn:hover {
     background: #059669;
 }
+
+footer {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 2rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    color: #f9fafb;
+    font-size: 24px;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    transform: translate(-5px);   
+}
+
+.social-links a[href*="facebook.com"]:hover {
+    color: #1877F2;
+  }
+  
+  .social-links a[href*="twitter.com"]:hover {
+    color: #1DA1F2;
+  }
+  
+  .social-links a[href*="linkedin.com"]:hover {
+    color: #0A66C2;
+  }
+  
+  .social-links a[href*="instagram.com"]:hover {
+    color: #E4405F; 
+  }
