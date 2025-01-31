@@ -1,0 +1,17 @@
+body {
+    font-family: 'poppins' sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #1F2937, #111827); 
+    min-height: 100vh;
+    color: #E5E7EB; 
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #f9fafb;
+}
+
+p, blockquote, .feature p, .cta-text p {
+    color: #E5E7EB;
+}
