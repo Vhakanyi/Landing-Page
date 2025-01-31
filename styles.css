@@ -242,7 +242,6 @@ footer {
     color: #f9fafb;
     font-size: 24px;
     transition: all 0.3s ease;
-    display: inline-block;
 }
 
 .social-links a:hover {
@@ -264,3 +263,76 @@ footer {
   .social-links a[href*="instagram.com"]:hover {
     color: #E4405F; 
   }
+
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem 5%;
+    }
+  
+    .hero-text {
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+  
+    .hero-image img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .feature-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .feature {
+      max-width: 100%;
+    }
+  
+    .cta-box {
+      flex-direction: column;
+      text-align: center;
+      padding: 2rem;
+    }
+  
+    .cta .btn {
+      margin-top: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 36px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    .hero-text p {
+      font-size: 16px;
+    }
+  
+    .feature p {
+      font-size: 14px;
+    }
+  
+    .quote blockquote {
+      font-size: 24px;
+    }
+  
+    .quote p {
+      font-size: 18px;
+    }
+  
+    .cta-text h3 {
+      font-size: 20px;
+    }
+  
+    .cta-text p {
+      font-size: 16px;
+    }
+  }
+  
