@@ -15,3 +15,43 @@ h1, h2, h3, h4, h5, h6 {
 p, blockquote, .feature p, .cta-text p {
     color: #E5E7EB;
 }
+
+header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur (15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 1rem 10%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9fafb;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #f9fafb;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #10b981;
+}
+
